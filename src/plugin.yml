@@ -1,0 +1,15 @@
+name: Pegasus
+main: org.pegasus.Main
+version: 1.0
+author: quatisyt
+api-version: 1.8
+description: Havai fisek ile ucma eklentisi
+commands:
+  pegasus:
+    description: Pegasus pluginini yeniden yukler ve yapimci bilgilerini gosterir.
+    usage: /pegasus <reload|yapimci>
+    permission: pegasus.reload
+permissions:
+  pegasus.reload:
+    description: Pegasus pluginini yeniden yukleme izni verir.
+    default: opreload

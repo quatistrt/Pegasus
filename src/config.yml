@@ -1,0 +1,8 @@
+firework:
+  slot: 0
+  cooldown:
+    right: 5
+    left: 5
+  power:
+    up: 1.0
+    forward: 1.5
